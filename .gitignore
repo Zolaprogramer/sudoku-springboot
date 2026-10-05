@@ -1,0 +1,13 @@
+﻿target/
+.mvn/wrapper/apache-maven-*
+*.zip
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.env
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf

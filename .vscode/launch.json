@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Sudoku (Spring Boot)",
+      "request": "launch",
+      "mainClass": "com.lazarm.sudoku.SudokuApplication",
+      "projectName": "sudoku",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "presentation": {
+        "hidden": false,
+        "group": "Sudoku",
+        "order": 1
+      }
+    },
+    {
+      "type": "java",
+      "name": "Debug Sudoku (Spring Boot)",
+      "request": "launch",
+      "mainClass": "com.lazarm.sudoku.SudokuApplication",
+      "projectName": "sudoku",
+      "args": "",
+      "vmArgs": "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005",
+      "presentation": {
+        "hidden": false,
+        "group": "Sudoku",
+        "order": 2
+      }
+    }
+  ]
+}
